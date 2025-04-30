@@ -10,12 +10,14 @@ const About = () => {
         <h1 className="font-serif text-4xl md:text-5xl font-bold mb-8">About Me</h1>
         
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-8">
-          <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0">
-            <img 
-              src="https://source.unsplash.com/random/300x300/?portrait" 
-              alt="Mia Le" 
-              className="w-full h-full object-cover"
-            />
+          <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 relative border-4 border-purple-500 border-opacity-70 p-1">
+            <div className="w-full h-full rounded-full overflow-hidden">
+              <img 
+                src="https://source.unsplash.com/random/300x300/?portrait" 
+                alt="Mia Le" 
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
           
           <div>
