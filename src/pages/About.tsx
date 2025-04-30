@@ -1,6 +1,7 @@
 
 import React from "react";
 import Layout from "../components/Layout";
+import { Github, FileText, Linkedin } from "lucide-react";
 
 const About = () => {
   return (
@@ -26,9 +27,24 @@ const About = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             
-            <p>
+            <p className="mb-6">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+
+            <div className="flex space-x-4 mb-6">
+              <a href="https://linkedin.com/in/miale" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-gray-700 hover:text-black transition-colors">
+                <Linkedin size={20} />
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/mia-lhma" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-gray-700 hover:text-black transition-colors">
+                <Github size={20} />
+                <span>GitHub</span>
+              </a>
+              <a href="/resume.pdf" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-gray-700 hover:text-black transition-colors">
+                <FileText size={20} />
+                <span>Resume</span>
+              </a>
+            </div>
           </div>
         </div>
         

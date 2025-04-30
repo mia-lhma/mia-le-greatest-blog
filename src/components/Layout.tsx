@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Github, FileText, Linkedin } from "lucide-react";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -20,8 +21,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </Link>
           </div>
           <nav className="flex justify-center space-x-8">
-            <NavLink to="/" active={location.pathname === "/"}>Home</NavLink>
             <NavLink to="/about" active={location.pathname === "/about"}>About</NavLink>
+            <NavLink to="/" active={location.pathname === "/"}>Projects</NavLink>
           </nav>
         </div>
       </header>
