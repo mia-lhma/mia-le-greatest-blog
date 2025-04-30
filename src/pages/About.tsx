@@ -22,15 +22,14 @@ const About = () => {
           
           <div>
             <p className="text-xl font-serif mb-4">
-              Hello! I'm Mia Le - The Greatest
+              Hello! I'm Mia Le - The Greatest 
             </p>
             
             <p className="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+              I’m a junior studying Finance and Business Analytics, passionate about harnessing data and technology to develop innovative investment strategies and optimize portfolio management. As a committed sustainability advocate, I spent last summer in an Asset Management & Deal Sourcing externship with Colton Alexander—conducting market research and crafting a pitch deck for startups offering breakthrough climate solutions.            </p>
             
             <p className="mb-6">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              This summer, I’m thrilled to join a leading REIT as an Asset Management & Affordable Housing intern, where I’ll continue blending financial acumen with sustainable impact.
             </p>
 
             <div className="flex space-x-4 mb-6">
