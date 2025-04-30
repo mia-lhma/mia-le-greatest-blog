@@ -1,13 +1,20 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from "react";
+import Layout from "../components/Layout";
+import PostCard from "../components/PostCard";
+import { blogPosts } from "../data/blogPosts";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout>
+      <section className="max-w-3xl mx-auto">
+        <div className="space-y-4 md:space-y-8">
+          {blogPosts.map((post) => (
+            <PostCard key={post.id} post={post} />
+          ))}
+        </div>
+      </section>
+    </Layout>
   );
 };
 
