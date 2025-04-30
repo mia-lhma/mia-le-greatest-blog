@@ -13,9 +13,9 @@ const About = () => {
           <div className="w-48 h-48 rounded-full overflow-hidden flex-shrink-0 relative border-4 border-[#F2FCE2] border-opacity-70 p-1">
             <div className="w-full h-full rounded-full overflow-hidden">
               <img 
-                src="https://source.unsplash.com/random/300x300/?portrait" 
+                src="/IMG_5813.JPG" 
                 alt="Mia Le" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover rounded-full transform scale-122"
               />
             </div>
           </div>
@@ -33,7 +33,7 @@ const About = () => {
             </p>
 
             <div className="flex space-x-4 mb-6">
-              <a href="https://linkedin.com/in/miale" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-gray-700 hover:text-black transition-colors">
+              <a href="https://www.linkedin.com/in/minhanhmiale/" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-gray-700 hover:text-black transition-colors">
                 <Linkedin size={20} />
                 <span>LinkedIn</span>
               </a>
@@ -50,19 +50,26 @@ const About = () => {
         </div>
         
         <section className="mb-8">
-          <h2 className="font-serif text-2xl font-bold mb-4">My Background</h2>
+          <h2 className="font-serif text-2xl font-bold mb-4">My Education</h2>
           <p className="mb-4">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          <strong>Lehigh University</strong>, Bethlehem, PA  
+          <br />
+          <span className="italic">
+            Bachelor of Science in Business and Economics
+          </span>  
+          <br />
+          <strong>Major</strong>: Finance & Business Analytics
+          <br />
+          <strong>Expected Graduation</strong>: May 2026
           </p>
           <p>
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
           </p>
         </section>
         
         <section className="mb-8">
           <h2 className="font-serif text-2xl font-bold mb-4">Get in Touch</h2>
           <p>
-            You can reach me at <a href="mailto:miale.lhma@gmail.com" className="text-black hover:underline">miale.lhma@gmail.com</a> or follow me on social media.
+            You can reach me at <a href="mailto:miale.lhma@gmail.com" className="text-black hover:underline">miale.lhma@gmail.com</a> or follow me on linkedin.
           </p>
         </section>
       </div>
