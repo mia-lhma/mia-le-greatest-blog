@@ -22,7 +22,7 @@ const About = () => {
           
           <div>
             <p className="text-xl font-serif mb-4">
-              Hello! I'm Mia Le, a writer, thinker, and creator. jhgkjhgkjhgkhjg
+              Hello! I'm Mia Le - The Greatest
             </p>
             
             <p className="mb-4">
