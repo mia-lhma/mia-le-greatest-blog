@@ -11,7 +11,18 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const location = useLocation();
   
   return (
-    <div className="min-h-screen bg-white">
+    <div
+      className="
+        relative         /* for the overlay */
+        min-h-screen
+        bg-[url('/public/7175949.jpg')]
+        bg-cover
+        bg-center
+        bg-no-repeat
+      "
+    >
+      {/* dark overlay for contrast */}
+      <div className="absolute inset-0 bg-black/0 pointer-events-none" />
       <header className="border-b border-gray-200">
         <div className="container mx-auto py-8 px-4 md:px-6">
           <div className="flex flex-col items-center mb-8">
