@@ -22,7 +22,7 @@ const About = () => {
           
           <div>
             <p className="text-xl font-serif mb-4">
-              Hello! I'm Mia Le - The Greatest 
+              Hello! I'm Mia Le
             </p>
             
             <p className="mb-4">

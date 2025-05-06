@@ -28,7 +28,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="flex flex-col items-center mb-8">
             <Link to="/" className="text-center">
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-2">Mia Le</h1>
-              <p className="text-gray-600 text-sm md:text-base">MIA - The Greatest</p>
+              <p className="text-gray-600 text-sm md:text-base">Changemaker - Entrepreneur - Nature Lover</p>
             </Link>
           </div>
           <nav className="flex justify-center space-x-8">

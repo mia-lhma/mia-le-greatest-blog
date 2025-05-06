@@ -16,17 +16,17 @@ const PostDetail = () => {
   return (
     <Layout>
       <article className="max-w-3xl mx-auto">
+        
+        <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">{post.title}</h1>
         {post.coverImage && (
-          <div className="mb-8 overflow-hidden rounded-md">
+          <div className="mb-8 overflow-hidden rounded-md justify-items-center">
             <img 
               src={post.coverImage} 
               alt={`Cover image for ${post.title}`} 
-              className="w-full h-[400px] object-cover"
+              className="w-[800px] h-[700px] object-cover"
             />
           </div>
         )}
-        
-        <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">{post.title}</h1>
         
         <div className="mb-8 text-gray-600">
           <time dateTime={post.date}>{formatDate(post.date)}</time> • By {post.author}
